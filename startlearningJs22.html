@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ice Cream Code</title>
+</head>
+<body>
+  <script>
+    //If condition
+//   let iceCream = "chocolate";
+//   if (iceCream === "chocolate") {
+//   console.log("Yay, I love chocolate ice cream!");
+// } else {
+//   console.log("Awwww, but chocolate is my favorite…");
+// }
+//Types of for loop 
+// for (let i = 1; i <= 5; i++) {
+//   console.log(i);
+// }
+// let fruits = ["apple", "banana", "orange", "grape"];
+// console.log(" array elements ");
+// for (let i = 0; i < fruits.length; i++) {
+//   console.log(fruits[i]);
+// }
+// //Nested for loop 
+// for (let i = 1; i <= 3; i++) {
+//   for (let j = 1; j <= 3; j++) {
+//     console.log(i + " * " + j + " = " + i * j);
+//   }
+// }
+// //For in Example
+// let person = {
+//   name: "John",
+//   age: 30,
+//   job: "Developer",
+//   salary:"12213"
+// };
+// console.log("Properties of person object using for...in:");
+
+// for (let name in person) {
+//   console.log(name + ": " + person[name]);
+// }
+// //for of example
+// let numbers = [1, 2, 3, 4, 5];
+
+// console.log("Values of the array using for...of:");
+
+// for (let number of numbers) {
+//   console.log(number);
+// }
+//try catch finally function 
+divideNumbers()
+function divideNumbers() {
+    try {
+        
+        let result = 20 / 10;
+       if (!isFinite(result)) {
+            throw new Error('Result is not a valid number');
+        }
+        console.log('Result:', result);
+    } catch (error) {
+        console.error('Error:', error.message);
+    } finally {
+        console.log('Division attempt complete.');
+    }
+}
+
+
+
+
+  </script>
+</body>
+</html>   
